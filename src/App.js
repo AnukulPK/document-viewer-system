@@ -1,31 +1,22 @@
 import { useState } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CustomerDashboard from './components/CustomerDashboard/CustomerDashboard';
 import UserDashboard from './components/UserDashboard/UserDashboard';
-
 import './App.css';
 import Login from './components/Login/Login';
 
 function App() {
   const [token, setToken] = useState('Login');
 
-  if (token === 'Login') {
-    return <Login />;
-  }
-
   return (
     <>
-      <h1>Document Viewer System</h1>
-      <BrowserRouter>
+      <Router>
         <Switch>
-          <Route path="/customer">
-            <CustomerDashboard />
-          </Route>
-          <Route path="/user">
-            <UserDashboard />
-          </Route>
+          <Route path="/" component={Login} exact />
+          <Route path="/customer" component={CustomerDashboard} />
+          <Route path="/user" component={UserDashboard} />
         </Switch>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
