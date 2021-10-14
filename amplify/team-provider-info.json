@@ -10,6 +10,11 @@
       "StackName": "amplify-documentviewersystem-dev-111551",
       "StackId": "arn:aws:cloudformation:ap-south-1:826091750342:stack/amplify-documentviewersystem-dev-111551/00567670-2cb2-11ec-b388-0277db29692c",
       "AmplifyAppId": "d3b6ezq7j1egvp"
+    },
+    "categories": {
+      "auth": {
+        "documentviewersystem23fcfd99": {}
+      }
     }
   }
 }
