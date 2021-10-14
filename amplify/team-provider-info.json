@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-documentviewersystem-dev-111551-authRole",
+      "UnauthRoleArn": "arn:aws:iam::826091750342:role/amplify-documentviewersystem-dev-111551-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::826091750342:role/amplify-documentviewersystem-dev-111551-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-documentviewersystem-dev-111551-deployment",
+      "UnauthRoleName": "amplify-documentviewersystem-dev-111551-unauthRole",
+      "StackName": "amplify-documentviewersystem-dev-111551",
+      "StackId": "arn:aws:cloudformation:ap-south-1:826091750342:stack/amplify-documentviewersystem-dev-111551/00567670-2cb2-11ec-b388-0277db29692c",
+      "AmplifyAppId": "d3b6ezq7j1egvp"
+    }
+  }
+}
