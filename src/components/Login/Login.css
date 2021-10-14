@@ -1,0 +1,39 @@
+.login-form-container {
+    width: 50vw;
+    margin: auto;
+    margin-top: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1vh 5vh;
+    padding: 5%;
+}
+
+.image-container {
+    width: 20vw;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+.btn-container {
+    width: 100%;
+    margin: auto;
+    background-color: #FF5771;
+    border: 1px solid #FF5771;
+}
+
+.btn-container:hover {
+    background: #FF5771;
+    opacity: 95%;
+    border: 1px solid #FF5771;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .login-form-container {
+        width: 100vw;
+        padding: 10vh 12vw;
+        box-shadow: none;
+    }
+
+    .image-container {
+        width: 50vw;
+
+    }
+}
