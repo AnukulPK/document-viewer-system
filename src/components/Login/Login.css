@@ -1,5 +1,5 @@
 .login-form-container {
-    width: 50vw;
+    width: 40vw;
     margin: auto;
     margin-top: 20vh;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 1vh 5vh;
@@ -7,7 +7,7 @@
 }
 
 .image-container {
-    width: 20vw;
+    width: 15vw;
     margin: auto;
     margin-bottom: 5vh;
 }
